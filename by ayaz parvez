@@ -1,4 +1,7 @@
 # 1st-ever-project
-times tables 1-12
+times tables
+for i in range(1, 12):
+    for j in range(1, 12):
+        print(f"{i} x {j} = {i*j}")
+    print()  # Empty line between tables
 
-1x1=1
